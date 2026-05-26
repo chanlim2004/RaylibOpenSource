@@ -55,7 +55,7 @@ const int screenHeight = 450;
 //camera소환
 Camera camera = { 0 };
 
-// 전역 변수들
+//전역 변수들
 //얼마나 마우스를 빨리 움직일 것인지
 static Vector2 sensitivity = { 0.001f, 0.001f };
 //이거는 실제 플레이어
