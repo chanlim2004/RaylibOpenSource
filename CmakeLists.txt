@@ -12,10 +12,13 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(raylib)
 
-add_executable(${PROJECT_NAME}
+add_executable(${PROJECT_NAME} 
+    main.c 
+    map_update.c
     src/main.c
     src/userInterface.c
     src/shootingLogic.c
+)
 )
 #이거는 그냥 임찬을 위한 코드--------
 if(WIN32)
